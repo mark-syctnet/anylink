@@ -11,9 +11,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/bjdgyc/anylink/admin"
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/handler"
+	"github.com/mark-syctnet/anylink/admin"
+	"github.com/mark-syctnet/anylink/base"
+	"github.com/mark-syctnet/anylink/handler"
 )
 
 //go:embed ui
