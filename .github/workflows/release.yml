@@ -43,8 +43,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: mark-syctnet
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: marksyctnet
+          password: sy-Rodge811016
           logout: true
 
       - name: Pre bash
