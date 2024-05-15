@@ -85,7 +85,7 @@ func LinkTun(cSess *sessdata.ConnSession) error {
 		base.Error(err)
 		return err
 	}
-	log.Printf("Interface Name: %s\n", ifce.Name())
+	// log.Printf("Interface Name: %s\n", ifce.Name())
 	cSess.SetIfName(ifce.Name())
 
 	// 通过 ip link show  查看 alias 信息
